@@ -1,0 +1,151 @@
+#creation{
+	text-align: center;
+}
+
+#creation:hover:before{
+	content: ">>";
+}
+
+#creation:hover:after{
+	content: "<<";
+}
+
+body{
+	background-color: lightgrey;
+}
+
+#newsreader{
+	display: flex;
+}
+
+h1{
+	margin-left: 10%;
+	font-size: 250%;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+#newsList input{
+	z-index: 1;
+	width: 97.5%;
+	background-color: black;
+	color: white;
+}
+
+.list div{
+	opacity: 0.6;
+	margin: 0.7% 0%;
+	padding-left: 1.5%; 
+	white-space: nowrap;
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#favList div:first-child{
+	margin: 0%;
+}
+
+.list div:hover,div.selection{
+	opacity: 1;
+}
+
+.list {
+	overflow-y : auto;
+}
+
+footer{
+	display: none;
+}
+
+#newsList{
+	left: 1%
+}
+
+#selectedNews{
+	left: 17.97%
+}
+
+#favList{
+	right: 1.2%;
+}
+
+#newsList, #favList {
+	width : 17%;
+	background-color: lightgrey;
+}
+
+#favList h2   {
+	padding: 2%;
+	margin: 0%;
+	margin-bottom: 1.5%;
+	border-bottom: solid thin;
+	background-color: black;
+	color: white;
+	text-shadow: 2px 1px 6px lightgrey;
+}
+
+#favList, #newsList, #selectedNews {
+	border : solid thin;	
+	overflow : auto;
+	height : 79%;
+	position: absolute;
+	min-height: 80%;
+}
+
+#selectedNews {
+	width : 63.65%;
+	background-color: white;
+}
+
+#selectedNews h1 {
+	text-align: center;
+	font-weight: normal;
+	padding : 1.5% 1%;
+	font-size: 185%;
+	margin : 0px;
+	margin-bottom: 0.5%;
+	overflow : hidden;
+	text-decoration: none;
+	font-style: normal;
+	font-family: Impact, fantasy; 
+}
+
+#selectedNews div#content{
+	padding : 2%;
+	font-size: 18px;
+}
+
+#selectedNews div#content input,textarea{
+	border: solid;
+  background-color: lightgray;
+}
+
+#selectedNews div#content p{
+	text-align: justify;
+	text-indent: 2.3%;
+}
+
+#selectedNews>figure {
+	margin : 0px;
+	padding : 0px;
+	border-top: solid;
+	padding-top: 1%;
+}
+#selectedNews>figure img {	
+	max-width : 100%;
+	max-height : 100%;
+	border-radius: 20px;
+}
+
+#pinit{
+	position: sticky;
+	float: right;
+	top: 3%;
+	right: 1.2%;
+	width: 5%;
+	font-weight: bold;
+	font-style : italic;
+	border-radius: 10px;
+	background-color: rgba(50,50,50,0.5);
+}

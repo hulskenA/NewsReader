@@ -1,0 +1,13 @@
+Hulsken Alexandre
+
+L'ensemble des questions a été traité et est totalement fonctionnel.
+
+Les fonctionnalités ajoutées:
+	-un nouveau fichier CSS
+	-la news selectionnée est mise en valeur dans chacune des deux listes
+	-il y a un pictogramme devant chaque titre et une couleur de fond pour différencier chacune des catégories
+	-les news mises en favorites sont sauvegardé sur le navigateur grace à l'objet localStorage
+	-le filtre fonctionne par mots-clés, il affiche toutes les news dont au moins l'un des mots de la valeur du filtre apparait dans son titre
+	-il est possible de créer ses propres news qui seront sauvegardées localement tout comme la liste de favoris ce qui fait que cette sauvegarde n'est valide que sur un seul navigateur particulier et ne sera pas prise en comptre si vous changez d'ordinateur ou de navigateur
+
+ATTENTION: si vous voulez changer le scripts des datas pour observer les effets avec d'autres news, veillez à bien vérifier que vous n'avez aucune news en favoris car cela pourrait entrer en conflit avec le nouveau scripts vu que la liste de onnées newsListData ne possède pas la même taille donc on pourrais avoir une erreur si la longueur est plus petite.
